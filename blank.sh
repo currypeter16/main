@@ -20,6 +20,7 @@ sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y
 sudo apt-get install xfce4-terminal
 sudo apt install xfce4-settings
+sudo apt-get install mousepad
 sudo apt-get install firefox && sudo apt install apt-transport-https curl && sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg && echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list && sudo apt update && sudo apt install brave-browser && wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add - && sudo add-apt-repository 'deb https://repo.vivaldi.com/archive/deb/ stable main' && sudo apt update && sudo apt install vivaldi-stable
 sudo adduser ROCK chrome-remote-desktop
 } &> /dev/null &&
